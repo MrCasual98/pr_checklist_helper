@@ -54,5 +54,5 @@ jobs:
         with:
           app-name: 'pr-checklist'
           slot-name: 'Production'
-          package: ./dist
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7BD839E361C54E108B82E357D9BEA85A }}
